@@ -1,0 +1,138 @@
+/* static/style.css */
+
+body {
+    font-family: 'Inter', sans-serif; /* Changed to Inter to match your HTML */
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.chat-container {
+    width: 400px;
+    height: 600px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-header {
+    background-color: rgb(145,0,160);
+    color: white;
+    padding: 15px;
+    text-align: center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.chat-window {
+    flex-grow: 1;
+    padding: 20px;
+    overflow-y: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.chat-message {
+    padding: 10px 15px;
+    border-radius: 18px;
+    margin-bottom: 10px;
+    max-width: 80%;
+    line-height: 1.4;
+}
+
+.chat-message.user {
+    background-color: rgb(145,0,160);
+    color: white;
+    align-self: flex-end;
+    margin-left: auto;
+}
+
+.chat-message.bot {
+    background-color: #e9e9eb;
+    color: #333;
+    align-self: flex-start;
+}
+
+.chat-input-area {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+}
+
+#user-input {
+    flex-grow: 1;
+    border: 1px solid #ccc;
+    border-radius: 18px;
+    padding: 10px 15px;
+    outline: none;
+}
+
+#send-btn {
+    background-color: rgb(145,0,160);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 18px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#send-btn:hover {
+    background-color:rgb(82, 1, 91);
+}
+
+/* --- NEW STYLES ADDED BELOW --- */
+
+/* Styling for the suggestion chip buttons */
+.suggestion-chip {
+    background-color: #e2e8f0; /* slate-200 */
+    color: #1e293b; /* slate-800 */
+    padding: 6px 12px;
+    border-radius: 16px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    border: 1px solid #cbd5e1; /* slate-300 */
+}
+
+.suggestion-chip:hover {
+    background-color: #cbd5e1; /* slate-300 */
+}
+/* Add these styles to your style.css file */
+
+.loading-overlay {
+  position: fixed; /* Cover the entire screen */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  display: flex; /* Use flexbox to center the spinner */
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensure it's on top of everything else */
+}
+
+.spinner {
+  width: 50px;
+  height: 50px;
+  border: 5px solid #ffffff; /* White border */
+  border-top-color: #6d28d9; /* Make the top part violet to match your theme */
+  border-radius: 50%;
+  animation: spin 1s linear infinite; /* Apply the spin animation */
+}
+
+/* Define the spin animation */
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Your existing .hidden class from Tailwind CSS will work perfectly */
+/* .hidden { display: none; } */

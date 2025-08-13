@@ -1,0 +1,22 @@
+{
+  "Computer Science and Engineering": {
+    "aliases": ["cse", "computer science", "computer science and engineering", "it", "information technology"],
+    "min_marks": 85,
+    "notes": "Admission is competitive. Higher scores and a good TNEA rank are recommended."
+  },
+  "Electronics and Communication Engineering": {
+    "aliases": ["ece", "electronics", "electronics and communication engineering"],
+    "min_marks": 75,
+    "notes": "Please contact the admissions office for details on lateral entry."
+  },
+  "Mechanical Engineering": {
+    "aliases": ["mech", "mechanical", "mechanical engineering"],
+    "min_marks": 70,
+    "notes": "Strong foundation in Physics and Mathematics is advised."
+  },
+  "Electrical and Electronics Engineering": {
+    "aliases": ["eee", "electrical", "electrical and electronics engineering"],
+    "min_marks": 72,
+    "notes": "Check the college prospectus for lab facility details."
+  }
+}

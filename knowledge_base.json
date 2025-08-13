@@ -1,0 +1,216 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "How are you?"
+      ],
+      "responses": [
+        "Hello! I am the Erode Sengunthar College assistant. How can I assist you today?",
+        "Hi there! What can I help you with?",
+        "Greetings! How may I help you regarding Erode Sengunthar Engineering College?"
+      ]
+    },
+    {
+      "tag": "college_info",
+      "patterns": [
+        "Tell me about the college",
+        "What is Erode Sengunthar Engineering College?",
+        "College history",
+        "When was the college established?"
+      ],
+      "responses": [
+        "Erode Sengunthar Engineering College, established in 1996, is permanently affiliated to Anna University, approved by AICTE, and accredited by NAAC with an 'A' grade and by the NBA.",
+        "Our college, founded in 1996, is committed to providing world-class technical education. We offer various UG and PG degree courses."
+      ]
+    },
+    {
+      "tag": "courses_offered",
+      "patterns": [
+        "What courses do you offer?",
+        "List the undergraduate courses.",
+        "What are the B.E. B.Tech programs available?",
+        "List of departments",
+        "Which engineering branches do you have?",
+        "Do you have M.E. programs?",
+        "Tell me about the master's degrees."
+      ],
+      "responses": [
+        "We offer a range of UG and PG courses. Our B.E./B.Tech courses include CSE, IT, AI & Data Science, ECE, EEE, Mechanical, Civil, and Chemical Engineering. Our PG courses include M.E. in Computer Science, VLSI, and Power Electronics, as well as MBA and MCA programs."
+      ]
+    },
+    {
+        "tag": "admissions_process",
+        "patterns": [
+          "How to apply for admission?",
+          "Admission process",
+          "When do admissions open?",
+          "How to apply online?"
+        ],
+        "responses": [
+          "You can apply online through the admissions portal on our official website. The process involves filling out the application form, uploading necessary documents, and paying the application fee. Admissions are based on TNEA counseling and also through the management quota."
+        ]
+    },
+    {
+        "tag": "check_eligibility",
+        "patterns": [
+          "am I eligible",
+          "check my eligibility for cse with 88%",
+          "eligibility for mechanical with 75 percent",
+          "can I get into eee with 90%",
+          "Eligibility criteria for admission"
+        ],
+        "responses": [
+          "To check your eligibility, I need the course name and your 12th standard percentage. For example: 'eligibility for cse with 92%'"
+        ]
+    },
+    {
+      "tag": "fee_structure_gov_quota",
+      "patterns": [
+        "What is the fee structure?",
+        "Course fees",
+        "How much does it cost to study here?",
+        "How much are the fees for first year engineering?",
+        "Fee details for TNEA students"
+      ],
+      "responses": [
+        "Based on the Fee Committee's order for Government Quota students, the first-year tuition fee for Accredited B.E./B.Tech courses is ₹55,000 per year, and for Non-Accredited courses, it is ₹50,000 per year. An additional development fee of ₹5,000 can be collected."
+      ]
+    },
+    {
+      "tag": "fee_structure_management_quota",
+      "patterns": [
+        "What are the management quota fees?",
+        "How much are the fees for direct admission?"
+      ],
+      "responses": [
+        "For Management Quota students, the first-year tuition fee for Accredited B.E./B.Tech courses is ₹87,000 per year, and for Non-Accredited courses, it is ₹85,000 per year. An additional development fee of ₹5,000 can be collected."
+      ]
+    },
+    {
+      "tag": "fee_exclusions",
+      "patterns": [
+        "Do the fees include hostel charges?",
+        "Are transport fees included?",
+        "What is not included in the tuition fee?"
+      ],
+      "responses": [
+        "The fixed tuition fee does not include charges for Hostel, Transport, or Mess. Those are separate."
+      ]
+    },
+    {
+        "tag": "scholarships",
+        "patterns": [
+          "Are there any scholarships?",
+          "Scholarship options",
+          "Financial aid"
+        ],
+        "responses": [
+          "Yes, we offer various government and private scholarships for meritorious students. You can find more details in the 'Scholarships' section of our admissions page on the official college website."
+        ]
+    },
+    {
+      "tag": "facilities",
+      "patterns": [
+        "What facilities are available?",
+        "Tell me about the library",
+        "Do you have hostel facilities?",
+        "Sports facilities",
+        "Do you have industry collaborations?",
+        "Tell me about your technical partnerships."
+      ],
+      "responses": [
+        "We provide a wide range of facilities including a central Library, separate Hostels, and Transport services. We also have strong industry collaborations through our Cisco Local Academy, Infosys Campus Connect partnership, e-Yantra center, and an IIT Bombay Remote Center for enhanced learning."
+      ]
+    },
+    {
+      "tag": "placement",
+      "patterns": [
+        "Placement details",
+        "Career opportunities",
+        "Who recruits from your college?",
+        "Placement cell",
+        "What is the placement record?",
+        "Placement stats"
+      ],
+      "responses": [
+        "Our college has a strong placement record with over 655 students placed in 62+ companies in 2023-24. Prominent recruiters include TCS, Wipro, HCL, Cognizant, and Infosys. You can find more details on the 'Placement' section of our website."
+      ]
+    },
+    {
+        "tag": "contact",
+        "patterns": [
+          "How can I contact the college?",
+          "Contact number",
+          "Email address",
+          "College address"
+        ],
+        "responses": [
+          "You can contact our admission office at 9442132706, 9865279443, or email admission@esec.ac.in. The college is located at Thudupathi, Erode - 638057."
+        ]
+    },
+    {
+      "tag": "virtual_tour",
+      "patterns": [
+        "Virtual tour",
+        "Campus tour",
+        "Show me the campus",
+        "Can I see the college virtually?"
+      ],
+      "responses": [
+        "Yes, you can take a virtual tour of our campus! Please check the official college website for the link."
+      ]
+    },
+
+    {
+      "tag": "brochure",
+      "patterns": ["brochure", "prospectus", "can I see the brochure", "college details"],
+      "responses": ["Of course! Here is our college brochure."],
+      "image_url": "/static/images/brochure.png"  
+    },
+    {
+      "tag": "feedback",
+      "patterns": [
+        "I want to give feedback",
+        "Provide feedback",
+        "How to submit feedback?"
+      ],
+      "responses": [
+        "We value your feedback! You can submit your feedback through our dedicated feedback form on the website."
+      ]
+    },
+    {
+      "tag": "query_ticket",
+      "patterns": [
+        "I have a specific query",
+        "Need to raise a ticket",
+        "Talk to a human",
+        "Connect with support"
+      ],
+      "responses": [
+        "If I can't answer your question, you can talk to our admission team. Please contact them at the numbers provided on the college website."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Thanks, bye",
+        "Thank you"
+      ],
+      "responses": [
+        "You're welcome! Goodbye!",
+        "See you around! Feel free to ask if you have more questions.",
+        "Bye! Hope I was helpful."
+      ]
+    }
+  ]
+}
